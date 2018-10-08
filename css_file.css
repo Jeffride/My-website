@@ -1,0 +1,217 @@
+
+
+
+* {
+margin:0;
+}
+a{
+    color:#4bffff;
+    text-decoration:none;
+    transition: all .3s;
+    
+}
+a:hover{
+    color:white;
+    
+}
+.head{
+    float:left;
+    position: fixed;
+    width:100%;
+    padding: 60px 40px;
+    height:5px;
+    background-color: black;
+    z-index:+2;
+    opacity:.6;
+    top: 0px;
+    left: 0px;
+}
+.firstName{
+    position: fixed; 
+    text-align: left;
+    font-family: 'Monoton', cursive;       
+    font-size: 70px;
+    color: black;
+    padding: 10px 10px;
+    text-shadow: 5px 5px 4px #000000 ;
+    animation: trans 7s infinite linear ;
+    z-index:+3;
+    display:block;
+    margin:auto;    
+    width:auto;
+
+  
+}
+body {
+    min-height: 100%;
+    height:100%;
+    padding:0;    
+    
+}
+#container {
+    min-height: 100%;
+    position:relative;
+}
+.big{
+    position:relative;
+    top: 10px;
+    left:40px;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 40px;
+    z-index: 0;
+    margin-left:auto;
+}
+.red{
+    position:relative;
+    color: white;
+    font-size:25px;
+    font-family: 'Roboto Mono', monospace;
+    z-index:0;
+    top: 10px;
+    margin-left:auto;
+}
+.link{
+    color:#aeffff  !important;
+    text-decoration:none;
+}
+.link.hover{
+    color:red !important;
+}
+main{
+    padding: 180px 5px;
+}
+strong{
+    font-size: 30px;
+}
+#footer{
+    height: 100px;
+    padding: 30px 0px;
+    background-color: rgba(255,255,255, .6);
+   
+}
+#backToTop{
+}
+.foot{
+    position: relative;
+    bottom: 0px;
+    right:0px;
+    font-size: 30px;
+    font-family: 'font-family: 'Black Ops One', cursive;Roboto Mono', monospace;
+    color: black;
+    z-index: +3;
+    background-color: red;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 12px;
+    transition-duration:.3s;
+    margin-left:45%;
+}
+.foot:hover{
+    background-color: black;
+    color: red !important;
+    
+    
+}
+@keyframes trans{
+    0%{text-shadow: 0px 0px 20px #ff0000;}
+    5%{text-shadow: 0px 0px 20px #ff4d00;}
+    10%{text-shadow: 0px 0px 10px #ff8800;}
+    15%{text-shadow: 0px 0px 20px #ffc300;}
+    20%{text-shadow: 0px 0px 10px #fffe00;}
+    25%{text-shadow: 0px 0px 20px #a2ff00;}
+    30%{text-shadow: 0px 0px 10px #15ff00;}
+    35%{text-shadow: 0px 0px 20px #00ff78;}
+    40%{text-shadow: 0px 0px 10px #00ffd6;}
+    45%{text-shadow: 0px 0px 20px #00edff;}
+    50%{text-shadow: 0px 0px 10px #00b2ff;}
+    55%{text-shadow: 0px 0px 20px #0060ff;}
+    60%{text-shadow: 0px 0px 10px #0019ff;}
+    65%{text-shadow: 0px 0px 20px #3900ff;}
+    70%{text-shadow: 0px 0px 10px #6900ff;}
+    75%{text-shadow: 0px 0px 20px #af00ff;}
+    80%{text-shadow: 0px 0px 10px #f600ff;}
+    85%{text-shadow: 0px 0px 20px #ff00b6;}
+    90%{text-shadow: 0px 0px 10px #ff006f;}
+    95%{text-shadow: 0px 0px 20px #ff0040;}
+    100%{text-shadow: 0px 0px 10px #ff0000;}
+
+}   
+.wheel{
+    background-image:url('wheel1.png');
+    height: 3000px;
+    width: 3000px;
+    position:fixed;
+    z-index: -1;
+    background-size: 100%;
+    animation: rot 250s infinite linear;
+    
+}
+.sky{
+    background-image: url("bimage.jpg");
+    height:100vh;
+    width:100vw;
+    position:fixed;
+    z-index: -2;
+}
+@keyframes rot{
+    0%{transform: rotate(0deg); left: 0; top: 0;}
+    50%{transform: rotate(180deg); left: 0; top: 0;}
+    100%{transform: rotate(360deg); left: 0; top: 0;}
+}
+
+.button1{
+    position: fixed; 
+    text-align: left;
+    font-family: 'Black Ops One', cursive;
+    font-size: 40px;
+    -webkit-text-stroke: 1px white;
+    left:35vw;
+    top:30px;
+    text-shadow: 5px 5px 4px #000000;
+    z-index: +3;
+    display:block;
+    margin: auto;
+}
+.button2{
+    position: fixed; 
+    text-align: left;
+    font-family: 'Black Ops One', cursive;
+    font-size: 40px;
+    -webkit-text-stroke: 1px white;
+    left: 55vw;
+    top:30px;
+    text-shadow: 5px 5px 4px #000000;
+    z-index: +3;
+    display:block;
+    margin:auto;
+}
+#home{
+    text-align: center;
+    color:white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 45px;
+    text-shadow: 0px 0px 9px #4bffff;
+    
+}
+.bub{
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    border-radius:30px;
+    background-color:rgba(255,255,255, .6);
+    text-align:left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:000000;
+    padding: 30px 20px;
+    z-index:-1;
+}
+.page-wrap{
+    min-height: 100%;
+    margin-bottom:-100px;
+}
