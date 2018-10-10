@@ -30,7 +30,7 @@ a:hover{
     position: fixed; 
     text-align: left;
     font-family: 'Monoton', cursive;       
-    font-size: 70px;
+    font-size: 50px;
     color: black;
     padding: 10px 10px;
     text-shadow: 5px 5px 4px #000000 ;
@@ -206,7 +206,7 @@ strong{
     background-color:rgba(255,255,255, .6);
     text-align:left;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:000000;
     padding: 30px 20px;
     z-index:+1;
