@@ -6,6 +6,9 @@
 ## Hobbies
 ![hob](https://user-images.githubusercontent.com/43136483/46969747-f6e6ae00-d0ae-11e8-9dc4-f527724cb04b.png)
 
+## Education
+![edu](https://user-images.githubusercontent.com/43136483/46969766-049c3380-d0af-11e8-8e71-5564df0432e0.png)
+
 ## Title animation
 ![jeff](https://user-images.githubusercontent.com/43136483/46362329-e0c8fe80-c667-11e8-83d8-1b279a262842.gif)
 
