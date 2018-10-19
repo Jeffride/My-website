@@ -3,8 +3,6 @@
 html{
     zoom: 90%;
 }
-
-
 * {
 margin:0;
 }
@@ -12,11 +10,12 @@ a{
     color:#4bffff;
     text-decoration:none;
     transition: all .3s;
-    
+    display: block;
+
 }
 a:hover{
     color:white;
-    
+
 }
 .head{
     float:left;
@@ -31,10 +30,9 @@ a:hover{
     left: 0;
 }
 .firstName{
-    left:41.5%;
-    position: fixed; 
-    text-align: left;
-    font-family: 'Monoton', cursive;       
+    position: fixed;
+    text-align: center;
+    font-family: 'Monoton', cursive;
     font-size: 50px;
     color: black;
     padding: 10px 10px;
@@ -42,17 +40,17 @@ a:hover{
     animation: trans 7s infinite linear ;
     z-index:+3;
     display:block;
-    margin:auto;    
-    width:auto;
+    margin:auto;
+    width:100%;
 
-  
+
 }
 
 body {
     min-height: 100%;
     height:100%;
-    padding:0;    
-    
+    padding:0;
+
 }
 #container {
     min-height: 100%;
@@ -96,7 +94,7 @@ strong{
     width: 100%;
     height: 100px;
     bottom: 0;
-   
+
 }
 #backToTop{
 }
@@ -118,8 +116,8 @@ strong{
 .foot:hover{
     background-color: black;
     color: red !important;
-    
-    
+
+
 }
 @keyframes trans{
     0%{text-shadow: 0 0 20px #ff0000;}
@@ -144,7 +142,7 @@ strong{
     95%{text-shadow: 0px 0px 20px #ff0040;}
     100%{text-shadow: 0px 0px 10px #ff0000;}
 
-}   
+}
 .wheel{
     background-image:url('wheel1.png');
     height: 3000px;
@@ -153,7 +151,7 @@ strong{
     z-index: -1;
     background-size: 100%;
     animation: rot 250s infinite linear;
-    
+
 }
 .sky{
     background-image: url("bimage.jpg");
@@ -169,7 +167,7 @@ strong{
 }
 
 .button1{
-    position: fixed; 
+    position: fixed;
     text-align: left;
     font-family: 'Black Ops One', cursive;
     font-size: 40px;
@@ -180,7 +178,7 @@ strong{
     margin: auto;
 }
 .button2{
-    position: fixed; 
+    position: fixed;
     text-align: left;
     font-family: 'Black Ops One', cursive;
     font-size: 40px;
@@ -196,7 +194,7 @@ strong{
     font-family: 'Black Ops One', cursive;
     font-size: 45px;
     text-shadow: 0px 0px 9px #4bffff;
-    
+
 }
 .bub{
     position: absolute;
@@ -233,9 +231,16 @@ strong{
     padding-bottom: 40px;
     left:11%;
 
+
 }
 .image:hover {
-    transform: translateY(-10px);
+    animation: im .5s ease;
+    }
+@keyframes im {
+    0% {transform: translateY(0px);}
+    50%{transform: translateY(-5px);}
+    100% {transform: translateY(0px);}
+
 }
 #myCanvas{
     width: 420px;
