@@ -49,8 +49,8 @@ a:hover{
 body {
     min-height: 100%;
     height:100%;
+    width: 100%;
     padding:0;
-
 }
 #container {
     min-height: 100%;
@@ -159,6 +159,8 @@ strong{
     width:100%;
     position:fixed;
     z-index: -2;
+
+
 }
 @keyframes rot{
     0%{transform: rotate(0deg); left: 0; top: 0;}
@@ -345,5 +347,22 @@ img+a{
   font-size: 40px;
   display: inline;
   color:black;
+
+}
+.star{
+    background-image: url('ss.png');
+    height: 7em;
+    animation: fly 7s infinite linear;
+    position:absolute;
+    left: 80%;
+    top:-7em;
+    width: 10em;
+    z-index: -2;
+}
+@keyframes  fly{
+  0%,10%{transform: translateX(0em)translateY(0em);}
+
+
+  90%,100%{transform: translateX(-1180em)translateY(355em); }
 
 }
