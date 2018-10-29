@@ -359,10 +359,45 @@ img+a{
     width: 10em;
     z-index: -2;
 }
+.star1{
+    background-image: url('ss1.png');
+    height: 7em;
+    animation: flyr 6s infinite ease-in;
+    position:absolute;
+    left: 10%;
+    top:-25em;
+    width: 10em;
+    z-index: -2;
+}
+.star2{
+    background-image: url('ss2.png');
+    height: 14em;
+    animation: flyb 10s infinite ease-in;
+    position:absolute;
+    left: -600em;
+    top:25em;
+    width: 10em;
+    z-index: -2;
+}
 @keyframes  fly{
   0%,10%{transform: translateX(0em)translateY(0em);}
 
 
   90%,100%{transform: translateX(-1180em)translateY(355em); }
+}
+
+
+@keyframes  flyr{
+  0%,10%,20%,30%,40%,50%{transform: translateX(0em)translateY(0em);}
+
+
+  100%{transform: translateX(75em)translateY(65em); }
+
+}
+@keyframes  flyb{
+  0%,10%,20%,30%,40%,50%{transform: translateX(0em)translateY(0em);}
+
+
+  100%{transform: translateX(675em)translateY(0em); }
 
 }
