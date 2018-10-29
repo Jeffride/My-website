@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "leela.netsoc.co",
+  "port": "22",
+  "target": "/home/users/jeffride/public_html",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "jeffride",
+  "watch": [],
+  "transport": "scp",
+  "password": "Xsq7fWjiFxGX"
+}
